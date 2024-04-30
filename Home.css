@@ -1,0 +1,418 @@
+  @import url('https://fonts.googleapis.com/css2?family=Tektur&family=Work+Sans:wght@300;400;700;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Tektur&family=Work+Sans:wght@300;400;700;900&display=swap');
+  .Header{
+    background-color: black;
+  }
+#video{
+    width: 100vw;
+  margin-left: -12px;
+  margin-top: -64px;
+  /* opacity: 0.8; */
+}
+li{
+  padding: 3px;
+}
+a{
+    color: white;
+    font-family: 'Merriweather', serif;
+/* font-family: 'Tektur', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+}
+#li:hover{
+  /* border: 2px solid red; */
+  background-color:red;
+  /* padding: 4px; */
+  border-radius: 7px;
+}
+
+.Header{
+  height: 100%;
+}
+h4{
+  position: relative;
+  top: -22rem;
+  color: white;
+  left: 77px;
+  font-family: 'Tektur', sans-serif;
+  font-size: 2.5rem;
+
+}
+
+.container{
+  display: inline-block;
+  position: absolute;
+  top: 36rem;
+  left: -1rem;
+}
+h2{
+  overflow: hidden;
+  /* border-right: .15em solid orange; */
+  white-space: nowrap;
+  animation: typing 3.5s steps(50, end) forwards ;
+  font-size: 2.6rem;
+  width: 0;
+  color: violet;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 49% }
+}
+h1{
+  overflow: hidden;
+  /* border-right: .15em solid orange; */
+  white-space: nowrap;
+  animation: typing 3.5s steps(50, end) forwards ;
+  font-size: 3.6rem;
+  width: 0;
+  color: red;
+  font-family: 'Tektur', sans-serif;
+/* font-family: 'Work Sans', sans-serif; */
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 49% }
+}
+.typed-out{
+  position: relative;
+  top: -25rem;
+  left: 67px;
+}
+@media only screen and (max-width:985px){
+a{
+color: white
+}
+li{
+  width: 88px;
+}
+#nav{
+  gap: 8px !important;
+}
+
+#video{
+  margin-top: -3px;
+
+}
+#input{
+  border: 2px solid black;
+  border-radius: 23px;
+  padding: 6px;
+}
+h4{
+  top: -11rem;
+  color: white;
+  left: 230px;
+}
+
+}
+@media only screen and (max-width:1230px){
+  h4{
+   top: -18rem;
+  }
+  .typed-out{
+    display: none;
+  }
+
+}
+@media only screen and (max-width:950px){
+  h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    left: 58px;
+  }
+}
+@media only screen and (max-width:730px){
+  h4{
+    left: 50px;
+    font-size: 1.5rem;
+    top: -21rem;
+  }
+}
+@media only screen and (max-width:620px){
+
+  h4{
+
+   left: 86px;
+   margin-top: -104px;
+  }
+}
+@media only screen and (max-width:580px){
+  h4{
+    left: 27px;
+    margin-top: -105px;
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width:580px){
+  #h3{
+    font-size: 0.8rem;
+  }
+}
+#cimg{
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  border: 2px solid;
+  border-radius: 77px 77px 0px 0px;
+}
+#ccimg{
+  border-radius: 129px;
+  padding: 15px;
+  /* height: 200px;
+  width: 359px; */
+}
+#ccontain{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 21px;
+}
+#ccards{
+  border: 2px solid red;
+  width: 61%;
+  display: inline-block;
+  height: 456px;
+  border-radius: 78px;
+}
+#cbutton{
+  color: white;
+  border: 2px solid red;
+  background: red;
+  padding: 4px;
+  border-radius: 15px;
+}
+#cbutton:active{
+  background-color: aqua;
+}
+.slick-slide>div{
+  margin: 0 10px;
+}
+#cars{
+  height: 366vh;
+  margin-top: 45px;
+}
+#h3{
+  font-family: 'Merriweather', serif;
+  margin-top: 15px;
+  margin-bottom: 12px;
+  color: white;
+
+}
+span{
+  margin-bottom: 5px;
+  color: white;
+}
+@media only screen and (max-width:820px){
+  #ccimg{
+    height: 176px;
+  width: 229px;
+  }
+}
+@media only screen and (max-width:520px){
+  #ccimg{
+    height: 154px;
+    width: 162px;
+  }
+}
+@media only screen and (max-width:620px){
+  span{
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (max-width:490px){
+  span{
+    font-size: 0.6rem;
+  }
+}
+.slick-dots li button::before{
+  color: red !important;
+}
+li:hover{
+  background-color: white;
+  border-radius: 10px;
+}
+#process{
+  margin-top: 155px;
+}
+.card-body{
+  background-color: black;
+}
+.card-title{
+  color: red;
+
+}
+.card{
+  border: 2px solid red;
+  width: '18rem';
+  box-shadow: 10px 10px red;
+
+}
+.card-text:last-child{
+  color: white;
+}
+
+@media only screen and (max-width:1300px){
+.card{
+  width: 15rem;
+}
+}
+@media only screen and (max-width:860px){
+.card{
+  width: 12rem;
+}
+/* .card-title{
+  margin-bottom: 57px;
+} */
+}
+@media only screen and (max-width:710px){
+.card{
+  width: 8rem;
+}
+/* .card-title{
+  margin-bottom: 57px;
+} */
+}
+@media only screen and (max-width:574px){
+.card{
+  width: 25rem;
+  margin-top: 21px;
+  margin-bottom: 20px;
+}
+.row > *{
+  width: 93%;
+}
+}
+@media only screen and (max-width:474px){
+.card{
+  width: 15rem;
+  margin-top: 21px;
+  margin-bottom: 20px;
+}
+
+}
+#prow{
+  justify-content: center;
+  align-items: center;
+  height: 31rem;
+}
+#form{
+  margin-top: 12rem;
+  background-color: red;
+  height: 28rem;
+  border-radius: 294px;
+}
+#fh3{font-size: 4.75rem;}
+#input{
+  padding: 10px;
+  border-radius: 33px;
+}
+#fbuttton{
+  width: 90px;
+  background-color: black;
+  color: white;
+  border: 2px;
+  border-radius: 20px;
+  height: 46px;
+  margin-left: 20px;
+}
+#form-form{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+@media only screen and (max-width:764px){
+#form{
+  margin-top: 12rem;
+  background-color: red;
+  height: 33rem;
+  border-radius: 1px;
+}
+#input{
+  width: 22rem;
+}
+#form-form{
+  align-items: center;
+}
+#fh3{
+  display: flex;
+  justify-content: center;
+}
+}
+@media only screen and (max-width:430px){
+  #fh3{
+    font-size: 2.75rem;
+  }
+  #input{
+    width: 16rem;
+  }
+}
+#review{
+  margin-top: 10rem;
+}
+#rh3{
+  color: red;
+  font-size: 53px;
+}
+#rcard{
+  box-shadow: 0px 5px red;
+  width: 11rem;
+}
+#creview{
+  gap: 18px;
+  display: flex;
+  flex-direction: column;
+}
+#ccol{
+  align-self: center;
+}
+#cfooter{
+  color: white;
+}
+.footer{
+  border: 2px solid red;
+  margin-top: 10rem;
+  padding: 13px
+}
+.fli{
+  width: 87px;
+  color: red;
+  list-style: none;
+}
+.fonts{
+  gap: 24px;
+  display: flex;
+  flex-direction: row;
+}
+.fcolor{
+  color: red !important;
+}
+@media only screen and (max-width:1480px){
+#cars{
+  height: 299vh;
+}
+
+}
+@media only screen and (max-width:1130px){
+#cars{
+  height: 300vh;
+}
+
+}
+@media only screen and (max-width:780px){
+#cars{
+  height: 383vh;
+}
+
+}
+@media only screen and (max-width:570px){
+#cars{
+  height: 515vh
+}
+
+}
+@media only screen and (max-width:470px){
+#cars{
+  height: 545vh;
+}
+
+}

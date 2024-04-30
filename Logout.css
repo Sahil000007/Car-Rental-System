@@ -1,0 +1,41 @@
+.Logoutpage{
+    background-color: black;
+    height: 100vh;
+}
+.container{
+    position: absolute;
+  top: 11rem;
+  left: -1rem;
+  justify-content: center;
+  display: flex;
+}
+.col{
+    flex: 1 0;
+  gap: 54px;
+  display: flex;
+  flex-direction: column;
+}
+#lfont{
+    font-size: 1.45rem;
+}
+.logouttitle{
+    cursor: pointer;
+  background-color: red;
+  height: 3rem;
+  width: 32rem;
+  border-radius: 22px;
+}
+.logoutform{
+    padding: 4rem 3rem 3.5rem;
+    border-radius: 1.5rem;
+    top: 7rem;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    left: 31rem;
+    border: 2px solid red;
+}

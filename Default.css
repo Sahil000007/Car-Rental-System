@@ -1,0 +1,24 @@
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+#search{
+    border: 2px solid;
+  border-radius: 30px;
+
+}
+Navbar.Toggle{
+  background-color: white;
+}
+li{
+  z-index: 1;
+}
+@media only screen and (max-width:985px){
+  #nav{
+    gap: 8px;
+  }
+}
+
+
+

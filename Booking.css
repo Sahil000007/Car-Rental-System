@@ -1,0 +1,44 @@
+#bookcars{
+    display: flex;
+  flex-flow: wrap;
+  gap: 64px;
+}
+#cardd{
+    border: 2px solid red;
+  padding: 21px;
+  border-radius: 43px;
+  margin-bottom: 30px;
+
+}
+#bimg{
+    border-radius: 45px;
+}
+#bbname{
+    color: red;
+    margin-top: 20px;
+}
+#bbno{
+    color: red;
+    font-size: 20px;
+
+}
+li{
+  list-style: none;
+}
+#bbutt{
+  margin-left: 65px;
+  border: red;
+  background-color: red;
+  border-radius: 10px;
+  padding: 4px;
+}
+@media only screen and (max-width:955px){
+  #bookcars{
+    flex-direction: column;
+    height: 580vh;
+  }
+  #cardd{
+    width: 333px;
+  }
+}
+
